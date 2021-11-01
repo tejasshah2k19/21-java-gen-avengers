@@ -1,0 +1,74 @@
+data type ? 
+
+1)primitive 
+	byte 				1byte		8bits		256/2  => -128  0 127
+	short 				2byte		16bits      -32768 0 32767
+	char 				2byte		16bits 
+	int 				4byte		32bits 
+	long 				8byte		64bits
+	float 				4byte		32bits
+	double 				8byte		64bits
+	boolean true false  ----		1bit 
+	
+2)non primitive 
+	class 
+	array
+	enum
+	.....
+----------------------------------------------------------------------
+create a calc having 7 functionality with menu driven- 
+
+add()
+sub()
+mul()
+div()
+sqrt()
+sin()
+cos()
+
+java.lang package is imported by default in every java class file 
+----------------------------------------------------------------------
+variable :- 
+		scope :-	
+			local [ block ]
+			instance [ non static ]  
+			static [ class ] 
+		
+
+static  vs non-static [instance] 
+
+static : only single copy for entire class 
+		 you can access static property using instance/object or using class name  
+		 
+		 
+non-static:   create individual copy for all instance 
+			  you must have to create instance/object to access instance property. 
+			  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
