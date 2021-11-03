@@ -44,7 +44,36 @@ static : only single copy for entire class
 non-static:   create individual copy for all instance 
 			  you must have to create instance/object to access instance property. 
 			  
+----------------------------------------------------------------------
+EmplPayRoll system 
 
+1) employee can register their detail and your system generate calculation of salary.
+2) details given by employee:-  firstname , basicSalary , tax 
+3) your system will calculate totalSalary on basis of 
+		totalSalary = basicSalary + da + hra + bonus - tax - pf 
+4) government ask for 1000 tax if basic salary > 15000 , 2000 if basicSalary > 50000 
+5) pf 12% , hra 5% , da 5% , bonus 7%  of basicSalary 
+
+
+classes==> 
+	EmplPayRoll->main 
+	Employee-> 
+		variable-> 
+				firstName
+				basicSalary
+				tax
+				da
+				hra
+				bonus
+				pf
+				totalSalary 
+		methods=>
+				getData()
+				calculateSalary()
+				printData()
+				
+	
+  
 
 
 
