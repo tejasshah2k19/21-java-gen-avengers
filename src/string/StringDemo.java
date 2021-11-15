@@ -60,6 +60,20 @@ public class StringDemo {
 			System.out.println(s1.charAt(i));//r 
 		}
 		
+		s1 = "royAl";
+		s1 = s1.toUpperCase(); // ROYAL
+		s1 = s1.toLowerCase();// royal
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
