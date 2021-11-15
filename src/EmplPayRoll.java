@@ -7,6 +7,9 @@ public class EmplPayRoll {
 		e.getData();
 		e.calculateSalary();
 		e.printData();
+
+		Employee x = new Employee();
+		x.printData();
 	}
 }
 
@@ -31,7 +34,7 @@ class Employee {
 		} else {
 			tax = 0;
 		}
-		hra = (int) (basicSalary * 0.05);
+		hra = (int) (basicSalary * 0.05); /// explicit
 		bonus = (int) (basicSalary * 0.07);
 		da = (int) (basicSalary * 0.05);
 		pf = (int) (basicSalary * 0.12);

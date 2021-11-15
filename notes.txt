@@ -1,3 +1,4 @@
+
 data type ? 
 
 1)primitive 
@@ -54,7 +55,6 @@ EmplPayRoll system
 4) government ask for 1000 tax if basic salary > 15000 , 2000 if basicSalary > 50000 
 5) pf 12% , hra 5% , da 5% , bonus 7%  of basicSalary 
 
-
 classes==> 
 	EmplPayRoll->main 
 	Employee-> 
@@ -72,6 +72,103 @@ classes==>
 				calculateSalary()
 				printData()
 				
+--------------------------------------------------
+
+default value :- 
+
+	byte -> 0
+	short-> 0 
+	char-> null char -> '\0' , '\u0000' , blank  
+	int-> 0
+	long-> 0
+	float->0.0
+	double->0.0
+	boolean -> false 
+--------------------------------------------------
+
+constructor :- it's a special method which has a same name as a class name. 
+				it must not have any return type. 
+			-> it is used to initialize instance varibale. 
+		   -> 2 type 
+		   
+		   	1) implicit 
+		   			default - no argument 
+		   	2) explicit 	
+		   		2.1 ) default - no argument 
+		   		2.2 ) parameterized - argument 
+					
+		 Student(){
+		
+		 }
+
+		--> we can not call constructor , it will call when we create instance/object .
+
+Task:1)  Create class Car having two variable , name of the car and average of car. 
+		  you must have to take care, 
+		  		no default value will assign by java 
+		  		default value for all car name must be -> 'punch' and average must be '15'
+		  		
+		  		you can also provide facility to override the value of average and car name. 
+		  		
+		  		also create printData() , that prints all the value of car. 
+		  		
+-----------------------------------------------------------------------------------
+
+create an application for JB , they have various food items for sell. 
+
+user have to come and signup first , in signup user provides their firstname and mobile number.
+once user signup, they can place order.
+
+we have food items like, dabeli [25 Rs] , pizza [100 Rs] , pasta [120 Rs] 
+
+user can select any item with max 10 qty per order. 
+
+at last you have to generate bill with proper items.
+
+e.g
+
+if user buy dabeli with 5 qty and pizza with 3 qty then 
+user will pay tax , 10% on total bill 
+
+Bill :
+
+	Dabeli	5	125
+	Pizza	3	300
+	-----------------
+	Total       420
+	Tax          42
+	-------------------
+				462
+-----------------------------------------------------------------------------------
+		  		
+naming convention -  
+
+ class -> Bank BankBalance
+ variable / object -> salary totalSalary
+ method ->   addition() addTax()   
+ constant variable -> final variable ->    all caps -> MIN_BALANCE 
+
+
+-----------------------------------------------------------------------------------
+1) take one string from user and count how many vowels are present 
+2) take email and password from user and authenticate user.
+		valid email and password list 
+			1)  admin@royal.com  ,  admin123 
+			2)  royal@royal.com  ,  royal@secret 
+
+-----------------------------------------------------------------------------------
+ 
+
+
+
+
+
+
+
+
+
+
+
 	
   
 
