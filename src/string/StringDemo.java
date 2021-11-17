@@ -27,109 +27,39 @@ public class StringDemo {
 		// strcmp ==> int => same => 0 | any integer value
 		// equals() ==> true | false
 
-		boolean b = s1.equals(s2);
+		boolean b = s1.equals(s2);// boolean - true | false
 		System.out.println(b);
 
 		System.out.println(s1.equals(s2));
 
 		// equalsIgnoreCase
-		System.out.println(s1.equalsIgnoreCase(s2));
+		System.out.println(s1.equalsIgnoreCase(s2)); // boolean -->
 
 		// compareTo --> strcmp --> int
 
 		s1 = "royal";
 		s2 = "royal";
 		String s3 = "royalc";
-		System.out.println(s1.compareTo(s2));// 0
+		System.out.println(s1.compareTo(s2));// 0 int
 		System.out.println(s1.compareTo(s3));// 32
 		// royal royal
 		// royal royalc
-		// 0 32  004 
-		
-		
+		// 0 32 004
+
 		s1 = "royal";
 		s2 = "Royal";
-		
+
 		System.out.println(s1.compareToIgnoreCase(s2));
-		
-		
-		s1 = "royale ducation"; //r => 0th index 
 
+		s1 = "royale ducation"; // r => 0th index
 
-		for(int i=0;i<s1.length();i++) {
-			System.out.println(s1.charAt(i));//r 
+		for (int i = 0; i < s1.length(); i++) {
+			System.out.println(s1.charAt(i));// r -> accessing individual character from string
 		}
-		
+
 		s1 = "royAl";
-		s1 = s1.toUpperCase(); // ROYAL
+		s1 = s1.toUpperCase(); // ROYAL -- immutable
 		s1 = s1.toLowerCase();// royal
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
