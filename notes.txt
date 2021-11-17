@@ -158,7 +158,11 @@ naming convention -
 
 -----------------------------------------------------------------------------------
  
-
+1) take 1 string from user and count searchWord from user , searchWord is string given by user.
+2) take 1 string and print it in reverse.
+3) take email from user and check it's in proper format or not.
+		valid format :   XXX@XXX.XXX  [ X can be any from ->  A-Za-z0-9 ]  
+4) take 1 string and copy it's reverse in another string. 
 
 
 
