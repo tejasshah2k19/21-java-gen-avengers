@@ -166,12 +166,28 @@ naming convention -
 
 
 
+-----------------------------------------------------------------------------------
+mutable  :- 
 
 
+StringBuffer
+StringBuilder 
 
 
+builder --> fb 
+fb -> login --> x , y , z , u => submit => all are going to execute on same time of instance 
+ 
+ buffer --> 
+walk --> left right --> atm --> synchronise 
+-----------------------------------------------------------------------------------
+
+Object class -> 
+class Object{
 
 
+}
+
+Object is the parent of all class ....
 
 	
   
