@@ -180,20 +180,45 @@ fb -> login --> x , y , z , u => submit => all are going to execute on same time
  buffer --> 
 walk --> left right --> atm --> synchronise 
 -----------------------------------------------------------------------------------
-
 Object class -> 
 class Object{
 
 
 }
-
 Object is the parent of all class ....
+-----------------------------------------------------------------------------------
 
+inheritance := object of one class can access property of another class. 
+
+
+how ? extends keyword
+
+parent --- super --- base 
+child      sub       derived 
+
+types of inh? 5 
+
+single level 
+multi level
+multiple#  single class can access property from more than 1 class directly   
+hirerchical
+hybrid 
+
+this -> current ref / object / class 
+super --> parent 
+
+Task:-> 
+	Royal techno soft P ltd , has two types of employee 
+	fulltime and parttime employee.
+	you need to design app to calculate payment of all the employees.
+	all employee have their firstname and email in system. 
+	fulltime employee will get salary and monthly bonus
+	parttime employee will get monthlyPayCheck on basis of totalHours works and 
+	they get 5% of bonus if totalHours of work > 200. 
 	
-  
-
-
-
+	1) design class , identify variable and methods. 	
+	2) implement logic for both employees 
+-----------------------------------------------------------------------------------
 
 
 
