@@ -220,6 +220,50 @@ Task:->
 	2) implement logic for both employees 
 -----------------------------------------------------------------------------------
 
+overloading ? 
+	class having method more than one  with same name with different argument 
+	
+overriding?
+	parent -= child - same signature 
+	
+________________ keywords is used to achieve inheritance? 
+
+________ , _________ and ___________ are class who gives propert to child class?
+parent , super , base 
+
+
+_multiple____________ java directly?
+
+-----------------------------------------------------------------------------------
+polymorphism :- more than one form
+
+	type:-	
+			1) compile time  [ method overloading ,operator overloading* ]  
+			2) run time      [ virtual function* , overriding  ]
+
+   int a=90
+   int b =90 
+	a+b => 180 
+	
+	String a = "10"
+	String b = "10"
+	a+b => 1010 
+	
+polymorphic object :- 
+			Parent p = new Child(); 
+			
+RIL
+
+	Service -- 50 paisa 
+	
+   Trai [interface ] [call sms net ]
+Jio[free]    Vod 
+
+
+Trai t = new Jio()
+t = new Vod()
+
+-----------------------------------------------------------------------------------
 
 
 
