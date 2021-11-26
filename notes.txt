@@ -212,7 +212,7 @@ Task:->
 	fulltime and parttime employee.
 	you need to design app to calculate payment of all the employees.
 	all employee have their firstname and email in system. 
-	fulltime employee will get salary and monthly bonus
+	fulltime employee will get salary and monthly bonus [ 5%] 
 	parttime employee will get monthlyPayCheck on basis of totalHours works and 
 	they get 5% of bonus if totalHours of work > 200. 
 	
@@ -228,7 +228,7 @@ overriding?
 	
 ________________ keywords is used to achieve inheritance? 
 
-________ , _________ and ___________ are class who gives propert to child class?
+________ , _________ and ___________ are class who gives property to child class?
 parent , super , base 
 
 
@@ -250,7 +250,7 @@ polymorphism :- more than one form
 	a+b => 1010 
 	
 polymorphic object :- 
-			Parent p = new Child(); 
+			Parent p = new Child();  //compile time parent and run time child 
 			
 RIL
 
@@ -263,7 +263,15 @@ Jio[free]    Vod
 Trai t = new Jio()
 t = new Vod()
 
------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
 

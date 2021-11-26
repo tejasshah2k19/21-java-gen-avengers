@@ -10,6 +10,7 @@ public class PolymorphicObject {
 		// Parent p = new Child();
 		Animal a = new Dog();// polymorphic object
 		a.walk();
+		//a.bark();
 
 		Animal ac = new Cow();
 		ac.run();
