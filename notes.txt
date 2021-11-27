@@ -264,7 +264,17 @@ Trai t = new Jio()
 t = new Vod()
 
 -----------------------------------------------------------------------------------------
+non a m --> class method varibale 
 
+
+final keyword  :- 
+				class - Yes  - can not inherited 
+				method - Yes -- can not override 
+				variable - Yes  -- can not modify --constant variable 
+				
+	
+
+-----------------------------------------------------------------------------------------
 
 
 
