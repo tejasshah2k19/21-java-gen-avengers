@@ -273,6 +273,27 @@ final keyword  :-
 				variable - Yes  -- can not modify --constant variable 
 				
 	
+static :-
+		class -	no 
+		method - yes  [ static method can access only static property ] 
+		variable - yes [ will allocate memory once  -- one and only one copy ] 
+		static property can be access using className or u can access using object 
+
+strictfp :- 
+	class :- yes
+	method :- yes
+	variable :- no
+
+			9458675842/62375890 => 
+			1.51XXXXXX
+			151.6399339873
+			151.6399334
+			151.6399339873146
+		
+			floating 
+			IEEE754 -> 5
+
+
 
 -----------------------------------------------------------------------------------------
 
