@@ -330,24 +330,15 @@ package  -  folder
 folder? package? 
 
 inbuilt packages ---
-	io
-	applet   
-	lang
-	util
+	java
+		io
+		applet   
+		lang*
+		util
 	util.regex 
 user define ----
 		XXXX 
 		
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
 	folder java -> tmp,def  
 	
 	tmp
@@ -361,12 +352,12 @@ user define ----
 		
 	def 
 		B.java 
-		
-		package def;	
-		import tmp.A; 
-		public class B{
-		
-		
+		package def;
+		import tmp.A; 	
+	 	public class B{
+				 main(){
+				 
+				 }
 		}
 	java 
 		import tmp.A;
@@ -375,8 +366,15 @@ user define ----
 			main 
 				A 
 				B 
-				
+				X		
 		}
+		
+		
+	java 
+		class X{
+		
+		}
+		
 	javac AB.java 	
 	javac def/B.java //def.B 
 	java def.B
@@ -384,7 +382,8 @@ user define ----
 	
 	 
 -----------------------------------------------------------------------------------------
-
+AccessSpecifier:- 
+	private,default,protected,public 
 
 def 
 	public A [private add,sub,protected mul,public div]
@@ -402,6 +401,10 @@ xyz
 		C [subclass-same package]	 		N			 Y 			 	Y				Y 
 		E [nonsub-other package]			N			 N				N				Y
 		F [sub-other package]				N			 N				Y				Y
+		
+		
+		default never access outside the package
+		protected can access outside the package, need relations 
 		
 -----------------------------------------------------------------------------------------
 			 	
