@@ -296,7 +296,130 @@ strictfp :-
 
 
 -----------------------------------------------------------------------------------------
+Cricket App:-	
+	 players registration ,like  firstname  , age , batsman or bowler 
+	 if player is batsman then ask for totalRuns and inningsplayed
+	 if player is bowler then ask for totalWickets and inningsplayed 
+	 rules:-
+	 	players age must be >= 18 and <= 30
+	 	default skill is batsman 
+	 	
+	 [class,variable,method,constructor,final]
+	  
+	 
+-----------------------------------------------------------------------------------------
 
+abstract:-	
+		class : yes
+		method : yes
+		variable : no
+		
+		abstract class can have both abstract and non abstract method
+		we can't create object/instance of abstract 
+		if child class extends abstract class then child must have to override all the 
+		abstract method of parents or child must have to mark as abstract. 
+
+transient* 
+volatile* 
+
+
+-----------------------------------------------------------------------------------------
+
+package  -  folder
+
+folder? package? 
+
+inbuilt packages ---
+	io
+	applet   
+	lang
+	util
+	util.regex 
+user define ----
+		XXXX 
+		
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	folder java -> tmp,def  
+	
+	tmp
+		A.java 
+		
+		package tmp; 
+		public class A{
+			public void add(){}
+		
+		}
+		
+	def 
+		B.java 
+		
+		package def;	
+		import tmp.A; 
+		public class B{
+		
+		
+		}
+	java 
+		import tmp.A;
+		import def.B; 
+		class AB{
+			main 
+				A 
+				B 
+				
+		}
+	javac AB.java 	
+	javac def/B.java //def.B 
+	java def.B
+	 
+	
+	 
+-----------------------------------------------------------------------------------------
+
+
+def 
+	public A [private add,sub,protected mul,public div]
+	public A()
+	B
+	C extends A 
+xyz 
+    E
+    F extends A 
+ 	F f =new F();
+ 
+ 			  							private		default		protected 		 	  public 
+ 		A [same class] 						Y			 Y				Y				Y
+		B [non subclass-same package]		N			 Y				Y				Y 	
+		C [subclass-same package]	 		N			 Y 			 	Y				Y 
+		E [nonsub-other package]			N			 N				N				Y
+		F [sub-other package]				N			 N				Y				Y
+		
+-----------------------------------------------------------------------------------------
+			 	
+			 
+
+
+
+
+
+
+
+
+
+	 
+	 
+	
+		
+		
 
 
 
