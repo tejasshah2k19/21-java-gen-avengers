@@ -407,8 +407,23 @@ xyz
 		protected can access outside the package, need relations 
 		
 -----------------------------------------------------------------------------------------
-			 	
-			 
+local --> stack 
+instance / static / instance-object ---> heap 			 	
+class A{
+	int x; // instance - heap 
+	
+	void add(){
+			int y; //local - stack 
+			
+			for(int u=1;...){ //local -- block --- stack
+			
+			}
+	}
+
+}			 
+-----------------------------------------------------------------------------------------
+
+
 
 
 
@@ -420,6 +435,15 @@ xyz
 
 	 
 	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 		
 		
