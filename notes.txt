@@ -422,9 +422,16 @@ class A{
 
 }			 
 -----------------------------------------------------------------------------------------
-
-
-
+KJ => 
+ 	KJ has variety of products to sell. 
+ 	they are specialized in making gold bangles.
+ 	they are also selling ear-rings. 
+ 	your task to design an application that can manage their inventory. 
+ 	you need to store details of every product , 
+ 		like , name , qty , price , and type of build - type of build can be any [ gold,silver,diamond,mix] 
+ 		
+ 	
+	
 
 
 
