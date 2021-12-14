@@ -408,7 +408,7 @@ xyz
 		
 -----------------------------------------------------------------------------------------
 local --> stack 
-instance / static / instance-object ---> heap 			 	
+instance / static / instance-object ---> heap [gc] 			 	
 class A{
 	int x; // instance - heap 
 	
@@ -421,6 +421,7 @@ class A{
 	}
 
 }			 
+System.gc() //request 
 -----------------------------------------------------------------------------------------
 KJ => 
  	KJ has variety of products to sell. 
@@ -429,8 +430,13 @@ KJ =>
  	your task to design an application that can manage their inventory. 
  	you need to store details of every product , 
  		like , name , qty , price , and type of build - type of build can be any [ gold,silver,diamond,mix] 
- 		
+ 	create 5 products also make proper menu for addition of products and display product.
+-----------------------------------------------------------------------------------------
  	
+ 	1 add product    [ x , y ]  [ x,y,z]  
+ 	2 list products  [ x , y ] 	[x,y,z] 
+ 	
+-----------------------------------------------------------------------------------------
 	
 
 
