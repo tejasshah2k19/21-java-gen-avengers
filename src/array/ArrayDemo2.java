@@ -42,5 +42,22 @@ public class ArrayDemo2 {
 			System.out.println(b[i]);
 		}
 
+		int d1 = 0, d2 = 0, d3 = 0;
+		for (int i = 0; i < b.length; i++) {
+			if (b[i] >= 0 && b[i] <= 9) {
+				d1++;
+			} else if (b[i] >= 10 && b[i] <= 99) {
+				d2++;
+			} else if (b[i] >= 100 && b[i] <= 999) {
+				d3++;
+			}
+		}
+		System.out.println("====RESULT====");
+		System.out.println("1 digit number : "+d1);
+		System.out.println("2 digit number : "+d2);
+		System.out.println("3 digit number : "+d3);
+		
 	}
 }
+
+
