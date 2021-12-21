@@ -445,12 +445,10 @@ KJ =>
 
 -----------------------------------------------------------------------------------------
 ContactApp:-> 
-	
 	contact --> 
 		name 
 		contactNum 
 		city 
-		
 		
 7	
 	Add Contact 
@@ -469,13 +467,25 @@ P2:
 				
 				5  List all contacts A-Z 
 -----------------------------------------------------------------------------------------
-
+error --> 1) compile time , syntax , comma , varaiable , = ==   [ java compiler ] --> javac  
+		  2) runtime [.class] [exception] --> logic , / by 0 , int a = scr.nextInt(); // ramayan 
 
 	 
+	try --code 
+	hit --object 
+	throw--o throw 
+	catch 
 	 
 	
 	
-	
+		 		Throwable 
+		
+	Exception					Error [X]
+		ArithmeticException
+		InputMismatchException
+		NullpointerException
+		ArrayLindexOutofBoundsException 
+		
 	
 	
 	
