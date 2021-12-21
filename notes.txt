@@ -443,11 +443,32 @@ KJ =>
 1 22 3 44 5 6  [ print only unique numbers from array ]
 			[remove duplicates ] 
 
-
-
-
-
-
+-----------------------------------------------------------------------------------------
+ContactApp:-> 
+	
+	contact --> 
+		name 
+		contactNum 
+		city 
+		
+		
+7	
+	Add Contact 
+	List Contacts 
+-----------------------------------------------------------------------------------------
+P2: 
+	add menu : 
+				3 for search contact by name [exact ] 
+						ram 
+						not found 
+				4 for search by character [like] 
+				r
+				ra
+				rava
+				ravan 
+				
+				5  List all contacts A-Z 
+-----------------------------------------------------------------------------------------
 
 
 	 
