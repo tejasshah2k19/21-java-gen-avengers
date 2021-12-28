@@ -489,12 +489,81 @@ error --> 1) compile time , syntax , comma , varaiable , = ==   [ java compiler 
 	
 	
 	
+	1) checked  -- try catch 
+	2) unchecked -- optional 
 	
 	
+	try
+	catch
+	finally 
+	
+	Exception
+	exception 
+	Throwable 
+	Object 
+	
+	throws 
 	
 	
+	throw vs throws vs Throwable 
+
+
+
+
+
+google --> 
+
+	abc.com --> google service --> 		
+		email
+		password 
+		
+		chatur@yopmail.com 
+		abc.com 
+		abc
+----------------------
+
+custom exception :- 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 		
+			
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
