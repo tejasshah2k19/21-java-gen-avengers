@@ -524,8 +524,16 @@ google -->
 
 custom exception :- 
 		
+----------------------
+java 7 exception :- 
+	
+		try(Scanner scr = new Scanner(System.in)){
+				
+			}catch(Exception e) {
+				
+			}
 
-
+----------------------
 
 
 
