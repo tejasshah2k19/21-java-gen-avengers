@@ -536,9 +536,17 @@ java 7 exception :-
 ----------------------
 
 
+enum = collections of constants 
 
+1 --> inside class 
+2--> outside class 
+----------------------
+blocks
+	1) static block
+	2) instance block  -- private constructor 
 
-
+----------------------
+command line arguments 
 
 
 
