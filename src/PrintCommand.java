@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-
 public class PrintCommand {
 
 	public static void main(String[] args) {
@@ -22,6 +20,9 @@ public class PrintCommand {
 		System.out.println("sum => " + sum);
 	}
 
+	
+	
+	
 }
 
 //PrintCommand royal 1 2 3 4 

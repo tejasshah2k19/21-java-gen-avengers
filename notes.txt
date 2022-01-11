@@ -549,12 +549,96 @@ blocks
 command line arguments 
 
 
+------------------------------------------
+
+royal lucky draw app 
+
+
+in your app all users are signup and they get unique number when they signup 
+signup -> 
+
+1.
+ram ram@gmail.com  [ 12345 ] 
+
+
+max 10 users can signup 
 
 
 
+1 ram    XX   12345
+2 sita   XX   42345
+3 ravan  XX   62345
+4 laxman xx   45345
+ 
+
+
+1.signup //10
+2.spinTheWheel //n
+3.Dashboard 
+4.Winner 
+5.LeaderBoard
+
+2 
+winner is sita :: 42345
+
+[1000] //every user have 0 credits 
+
+
+3.
+1 ram    XX   12345	5000
+2 sita   XX   42345	6000
+3 ravan  XX   62345	0
+4 laxman xx   45345	2000 
 
 
 
+4.
+Sita XX 42345 6000 
+
+
+5.
+1 sita   XX   42345	6000
+2 ram    XX   12345	5000
+3 laxman xx   45345	2000 
+4 ravan  XX   62345	0
+
+
+------------
+command line :-
+	1)take 5 numbers and find sum
+	2)take 5 numbers and find max 
+	3)take 5 numbers and find sum of all odd and even
+	4)take n numbers from user using command line and print all those
+		numbers which can divide by 2  or 3 or 9 
+	5) take two string from user using command line now
+	remove all odd index characters from 2nd string   
+	 and copy all odd index characters of 1st string into 2nd 
+ 
+ royal 
+ japan 
+ 
+ remove all odd index
+ 	 XaXaX [ j p and n will remove cz they are at odd index ]
+ 	 	now find odd index character from 1st string 
+ 	 	r o y a l [ r y a ] 
+ 	 now add r y and a into second string where we remove all odd index 
+ 	 so new string will be 
+ 	 	 
+ 	 rayal
+ ex:2 
+ 
+ royaleducation
+ satadhar 
+ 
+ rayalhdr
+ 
+ ------------------------------------------------------------------- 
+ 
+ 
+ 
+ 
+ 	   
+ ----------------------------------------------------------
 
 
 
