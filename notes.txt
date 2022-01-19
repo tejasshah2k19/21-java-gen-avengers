@@ -633,11 +633,22 @@ command line :-
  rayalhdr
  
  ------------------------------------------------------------------- 
- 
- 
- 
- 
- 	   
+ access specifier 
+ access modifier 
+ 		private 
+ 		default
+ 		protected
+ 		public 
+ 		
+ non access modifier 
+ 		static 
+ 		final
+ 		strictfp 
+ 		volatile 
+ 		synchronized 
+ 		native 
+ 		abstract 
+ 	
  ----------------------------------------------------------
 
 
