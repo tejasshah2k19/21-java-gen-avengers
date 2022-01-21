@@ -379,6 +379,7 @@ user define ----
 	javac def/B.java //def.B 
 	java def.B
 	 
+
 	
 	 
 -----------------------------------------------------------------------------------------
@@ -650,11 +651,32 @@ command line :-
  		abstract 
  	
  ----------------------------------------------------------
+java.io --> 
+	io --> file 
+java.nio 
+	nio --> file 
+
+store data 
 
 
-
-
-
+crickinfo 
+	db score s
+	server --> file 
+				ball	run
+				1 		4 
+	 		    2		-
+	 		    3		wide
+	 		    3		4
+	 		    4		2
+	 		    5		out
+	 		    6		6
+		submit to database server --> 
+	 	parse.com --> 1 call 0.10 paisa 
+	 	7 * 0.10 => 70 paisa 
+	 	70 paisa * 120  * 2=> 1 match 
+	 	
+7 insert 
+ ----------------------------------------------------------
 		
 		
 			
