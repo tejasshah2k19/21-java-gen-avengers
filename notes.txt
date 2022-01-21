@@ -676,10 +676,21 @@ crickinfo
 	 	70 paisa * 120  * 2=> 1 match 
 	 	
 7 insert 
- ----------------------------------------------------------
 		
-		
+File 
+
+
+1) take file name from user check inside d drive if file is present print present if file is not present
+	then create it and print new file created. 
+2) take file name from user with location , if file present and size is > 0 byte then remove it. 
+3) take two file name from user , 
+		3.1) if both file present print which file is greater in size 
+		3.2) if first file is present and second is not then print "Bingo"
+		3.3) if first file is not present and second is present then print "Maggie"
+		3.4) if both files are missing print "JamesBond"		
 			
+
+ ----------------------------------------------------------
 		
 		
 
