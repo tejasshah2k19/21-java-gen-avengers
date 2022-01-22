@@ -678,7 +678,16 @@ crickinfo
 7 insert 
 		
 File 
-
+	createNewFile()
+	exists()
+	delete() 
+	length() 
+	
+	renameTo()
+	mkdir()
+	list()
+	
+	
 
 1) take file name from user check inside d drive if file is present print present if file is not present
 	then create it and print new file created. 
@@ -689,13 +698,24 @@ File
 		3.3) if first file is not present and second is present then print "Maggie"
 		3.4) if both files are missing print "JamesBond"		
 			
-
+	File f = new File("C:\\Users\\royal\\OneDrive\\Desktop",fileName)
+	
  ----------------------------------------------------------
+* do not consider recursive directory in any program 
+
+4) take directory name from user , check directory is present or not 
+	if directory is not present than create it
+	if directory is present than create A.java file inside it. 
+
+	
+5) take directory name from user , 
+		1 ) count how many java files are present in directory 
+		2 ) remove all hidden files from directory 	
 		
-		
+6) take directory name from user and find max size file from it. 
 
 
-
+----------------------------------------------------------
 
 
 

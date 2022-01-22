@@ -17,7 +17,7 @@ public class FileDemo {
 		String fileName = scr.next();
 
 //		File f = new File("d:\\Temp\\"+fileName);
-//		f.createNewFile();
+//		f.createNewFile();  //checked exception IOException 
 //		System.out.println("done....");
 
 //		File f = new File("d:\\Temp\\",fileName);
@@ -26,8 +26,8 @@ public class FileDemo {
 //		
 
 		File f = new File("d:\\Temp\\" + fileName);
-		System.out.println(f.length());//byte 
-		
+		System.out.println(f.length());// byte
+
 //		if (f.delete() == true) {// false true
 //
 //			System.out.println("file removed");
