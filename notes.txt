@@ -717,11 +717,25 @@ File
 
 ----------------------------------------------------------
 
+				byte								character 
+
+			[file write ] FileOutputStream			FileWriter 
+			[file read  ] FileInputStream			FileReader
 
 
+1)  take 5 names from user and store into name.txt 
 
+2) take file name from user and print content of it on console. 
 
-
+3) create 1 file numbers.txt add 10 numbers from users 
+		now read numbers.txt
+				if num is odd then write that num into odd.txt 
+				if num is even then write that num into event.txt
+				
+4) take 2 file name with location , copy the content of first file into second file. 
+ 
+----------------------------------------------------------
+				
 
 
 
