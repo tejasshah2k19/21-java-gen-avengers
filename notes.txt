@@ -737,9 +737,20 @@ File
 ----------------------------------------------------------
 				
 
+database --> file 
+
+3 user --> insert 
 
 
+serialization ---> writing the state of instance into file 
+				  write object's variable 
+				  object --> ema, pas --> instance variable 
+				  
 
+
+an interface without any method is known as marker interface..
+
+some special signal to JRE 
 
 
 
