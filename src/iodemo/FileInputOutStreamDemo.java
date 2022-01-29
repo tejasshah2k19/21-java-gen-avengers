@@ -17,6 +17,7 @@ public class FileInputOutStreamDemo {
 		fos.write('y');
 		fos.write('a');
 		fos.write('l');
+//		fos.write(65+"");// byte => A --> FileWriter 
 		fos.write(' ');
 		fos.write('e');
 		fos.write('d');
@@ -29,7 +30,6 @@ public class FileInputOutStreamDemo {
 		fos.write('3');
 		fos.write('8');
 		fos.write('0');
-		
 
 		fos.close();
 
@@ -39,11 +39,12 @@ public class FileInputOutStreamDemo {
 		int b = 0;
 
 		while (true) {
-			b = fis.read();
+			b = fis.read();// 1 byte
 			if (b == -1) {
 				break;
 			}
 			System.out.print((char) b);
+			// num+""
 		}
 		fis.close();
 		System.out.println("\n\ndone....");

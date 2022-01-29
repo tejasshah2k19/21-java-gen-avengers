@@ -18,9 +18,13 @@ public class FileReaderWriterDemo {
 
 		FileReader fr = new FileReader(f);
 		int b = 0;
-		int size = (int) f.length();
+		
+		int size = (int) f.length(); // long--> size of file byte -> ram ->3	
+		
 		char c[] = new char[size];
+	
 		fr.read(c);
+		
 		for (int i = 0; i < c.length; i++) {
 			System.out.println(c[i]);
 		}

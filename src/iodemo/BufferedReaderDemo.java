@@ -16,7 +16,9 @@ public class BufferedReaderDemo {
 
 		String line = "";
 		while (true) {
+
 			line = br.readLine();
+			
 			if (line == null) {
 				break;
 			}
