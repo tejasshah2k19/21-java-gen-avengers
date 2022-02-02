@@ -22,7 +22,7 @@ public class FindMaxFileLengthFromDir {
 			for (int i = 0; i < fileNames.length; i++) {
 				localFile = new File(dir, fileNames[i]);
 				if (localFile.length() > maxSize) {
-					maxSize = localFile.length();
+					maxSize = localFile.length();//()
 					maxFileName = fileNames[i];
 				}
 			}

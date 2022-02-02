@@ -752,6 +752,62 @@ an interface without any method is known as marker interface..
 
 some special signal to JRE 
 
+----------------------------------------------------------
+collection - topic 
+Collection - interface 
+Collections - class 
+
+
+
+							Collection(I)
+								add()
+
+List(I)					Queue(I)					Set(I) 			|		Map(I)
+  get()
+ArrayList				PriorityQueue				HashSet					HashMap
+Vector												TreeSet					TreeMap
+ 
+
+
+unique
+duplicate
+sorted
+unsorted
+ordered
+unordered
+
+
+
+
+
+----------------------------------------------------------
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
