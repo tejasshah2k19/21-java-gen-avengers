@@ -782,6 +782,40 @@ unordered
 
 ----------------------------------------------------------
   
+  userinformation --> 
+
+class User{
+
+	userId=1
+	email
+	password 
+	credits
+
+ 
+
+}
+
+
+User user = new User();
+user.getDAta();
+
+ArrayList<User> users = new ArrayList<>(); 
+users.add(user);
+
+		 
+		Collection
+List(I)		Queue(I)	Set(I) |		Map(I)
+(C)ArrayList	PriorityQueue	HashSet			HashMap
+(C)Vector				TreeSet			TreeMap 
+
+
+
+duplicate
+ordered
+unsorted
+index 
+
+	
 
 
 
