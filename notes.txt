@@ -816,6 +816,25 @@ unsorted
 index 
 
 	
+List -->
+	duplicate 
+	ordered 
+	unsorted 	
+Vector Vs ArrayList -->
+		ArrayList [ async ] all at once | fast 
+		Vector    [ sync  ]  one by one | slow | finc 
+
+
+
+
+Set -- interface ---> 
+	unique 
+
+HashSet -- unordered [ 2,5,6,7,1] -> [X,X,X,X]   
+TreeSet -- sorted  --> [ 2,5,6,7,1] -> [1,2,5,6,7]
+
+HashSet X 
+TreeSet X+Y[sorted]
 
 
 
