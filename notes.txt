@@ -836,9 +836,26 @@ TreeSet -- sorted  --> [ 2,5,6,7,1] -> [1,2,5,6,7]
 HashSet X 
 TreeSet X+Y[sorted]
 
+						---Task---
+1) Take 10 numbers from user store into Vector , count how many ood and even numbers prenet in vector
 
+2) Take 5 numbers from user , now merge this 5 numbers and 10 numbers which u have in 1st question and print all 15 numbers.
+		v1 = 1,2,3,4,5,6,7,8,9,10
+		v2 = 11,22,33,44,55
+		v3 = 1,2,3,4,5,6,7,8,9,10,11,22,33,44,55
 
-
+3) take 6 numbers from user print difference of all numbers.
+	e.g 
+			list = [1,6,3,4,5,6]
+	output:
+			1
+			5
+			-3
+			1
+			1
+			1
+			
+-------------------------------------------------------------------------------------------------
 
 
 
