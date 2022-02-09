@@ -854,8 +854,52 @@ TreeSet X+Y[sorted]
 			1
 			1
 			1
+
+	
+	when i is 1 we have to subtract 1 and 0 index --> so we put (i-1) - (i)
+	
+	s.o.p(list.get(i));//-4 
+	
+	for(int i=1;i<list.size();i++){
+		 	s.o.p(list.get(i) - list.get(i-1) );	
+	}
 			
 -------------------------------------------------------------------------------------------------
+
+9-2-2022
+
+create an array list of size 5 
+scan numbers from user and store those numbers into arraylist and print your array list.
+
+now remove third element from your array list. 
+
+print size of array list. 
+
+print second element from list.
+
+check numner 420 is present in list or not. 
+
+create 1 more array list and store 3 odd numbers [ 137 237 437 ]. 
+
+append newly created array list into your first array list => **do not use any loop**
+
+list.addAll(newList) //1 2 3 137 237 437 
+
+-------------------------------------------------------------------------------------------------
+task:- 
+
+create 1 vector with 5 elements. 
+
+convert this vector into array list.
+
+convert vector into hash set. 
+
+check number 222 is present in hash set or not. 
+
+print all the elements of hash set. 
+
+-------------------------------------------------------------------------------------------------
+ 
 
 
 
