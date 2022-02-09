@@ -890,7 +890,7 @@ task:-
 
 create 1 vector with 5 elements. 
 
-convert this vector into array list.
+create  1 vector with same element that u have in array list . [ copy all the elements of array list into vector ] 
 
 convert vector into hash set. 
 
