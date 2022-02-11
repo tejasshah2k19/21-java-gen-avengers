@@ -899,15 +899,28 @@ check number 222 is present in hash set or not.
 print all the elements of hash set. 
 
 -------------------------------------------------------------------------------------------------
+
+task:- 
  
+	ArrayList --> Integer 
+	
+	
+	Amazon -->	db ==> products , users ,orders , carts 
+
+	tv --> low to high --> TreeSet --> price 
+	
+	login --> view my orders -->
 
 
 
+	Signup
+	Login 
+	Admin -> Add Delete 
+	User --> List --> View -> AddToCart --> checkout --> Order 
+	
+	
 
-
-
-
-
+-------------------------------------------------------------------------------------------------
 
 
 
