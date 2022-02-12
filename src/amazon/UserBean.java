@@ -1,12 +1,21 @@
 package amazon;
 
+import java.util.ArrayList;
+
 //bean is POJO class ==> plain old java object 
 
 public class UserBean {
+	
+	//USerBean user = new UserBean();
+	//user.firstName = "ram"
+	//user.carts --> XXX , YYY 
 
 	private int userId;
 	private String firstName, email, password;
 	private boolean admin = false;
+
+	// cart => product ?
+	ArrayList<ProductBean> carts = new ArrayList<>();
 
 	public UserBean() {
 		// TODO Auto-generated constructor stub
