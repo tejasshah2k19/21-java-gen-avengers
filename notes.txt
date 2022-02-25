@@ -924,9 +924,74 @@ task:-
 
 
 
+thread 
+
+	4 gb ram  
+
+	process --> slices --> thread 
+	T1  TN  
+	T2  TN	
+	T3  TN
+	movie --> 1gb  [250 250 250 250 ] 
+	copy paste --> 2gb [250 * 8  ] 
+	eclipse --> 1.5gb  [500 mb  ] 
+	download --> 2.5gb [100 mb ]
+	250 250 500 100 
+
+64bit 
+32bit [jsdfdfgkjdflkjlkgfjdlgkfdjlgfdjlkgjlkfgjld] 
+16bit [sdfdsfsdfsdfdsfsdf]
+
+	load a 
+	loab b 
+	add a+b,load c  
+	print c
+ 
+
+
+RISC AMD
+	+++ --- 
+
+CISC Intel 
+	+
+	*
+	/
+	-
+	
+---------------------------------
+
+
+which method is used to create stack for thread in java? 
+start()
+
+which method is used to kill thread?
+stop()
+
+
+which method is used to pause thread for exact time of amount ?
+sleep(ms)
+
+
+which method help us to get back our thread from pause state to active when thread is pause by sleep() ? 
+none 
+
+
+which method help us to get back our thread from pause state to active when thread is pause by wait() ?
+notify() 
 
 
 
+which method is switching thread between running and runnable state? 
+yield() 
+
+which method merge thread stack?
+join()
+
+
+which method help us to get back all our thread from pause state to active when thread is pause by wait() ?
+notifyAll()
+
+---------------------------------
 
 
 
