@@ -994,7 +994,51 @@ notifyAll()
 ---------------------------------
 
 
+1) create class ThreadSum which has two thread 
+		ThreadSum class will perform addition of 1 to 100
+		one thread will perform first 1 to 50 
+		second thread will perform 51 to 100 
+		and last you have to print sum [ sum print is a single statement call by main method ] 
+	
+2) create class Player with life variable. 
+	your player has 3 life. once life become 0 you need to display game over and you can't play game. 
 
+	create one method which kills your player and decrease your life count. 
+
+	create 5 players and play game. check which player can play and which are not eligible for play. 
+	1 object 5 thread 
+
+
+	Player p = new Player();
+	p.life= 3 
+
+
+	t1("a")
+	t2("b")
+	t3("c")
+	t4("d")
+	t5("e")
+
+	t1.start...t5.start
+
+---------------------------------
+
+use of Runnable 
+concurrency 
+
+---------------------------------
+
+
+generics 
+
+inner class 
+
+jdbc 
+
+autoboxing - unboxing  - wrapper class 
+
+
+---------------------------------
 
 
 
