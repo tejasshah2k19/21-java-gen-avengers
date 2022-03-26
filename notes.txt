@@ -1039,6 +1039,47 @@ autoboxing - unboxing  - wrapper class
 
 
 ---------------------------------
+Ahmedabad - mumbai 
+
+
+road 
+
+1) km 
+2) places 
+
+
+1) add Places 
+2) connection - km  
+
+
+ahmedabad
+baroda
+surat
+porbandar
+mumbai
+udaipur
+
+ahmedabad-baroda-surat 
+ahmedabad-surat
+ 
+
+
+
+ahmedabad 
+mumbai
+
+a-m [ x y z ] 425km
+
+a-m [ x u j k z ] 525km 
+
+
+a-jabalpur 
+no area found 
+-----------------------------
+
+
+
+
 
 
 
